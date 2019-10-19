@@ -8,4 +8,4 @@ before_install:
 
 
 sript:
-  - docker run -e CI=true artursuszkiewicz/docker-react npm run test -- --coverage
+  - docker run artursuszkiewicz/docker-react npm run test -- --coverage
